@@ -1,6 +1,6 @@
 # Quiz-Generator
 
-# 📘 Study Buddy – Quiz Generator
+# 📘 Study For a Quiz – Quiz Generator
 
 <div align="center">
 
@@ -17,22 +17,38 @@ Automatically generate multiple-choice quizzes from study materials (TXT, PDF, D
 
 ## 📊 Project Overview
 
-Study Buddy – Quiz Generator is a Python-based project that helps students **create quizzes automatically** from study files. The workflow supports multiple file formats and provides two modes:
+Study For a Quiz – Quiz Generator is a Python-based project that helps students **create quizzes automatically** from study files. The workflow supports multiple file formats and provides two modes:
 
-1. **API Version (Online)**: Uses OpenAI API to generate high-quality questions.
-2. **Offline Version**: Generates simple random questions without requiring an API key.
+1. 🟢  **API Version (Online)**: Uses OpenAI API to generate high-quality questions .
+2. 🔵 **Offline Version**: Generates simple random questions without requiring an API key.
 
 This project is designed for learning, revision, and self-assessment.
 
 ---
 
-## 🎯 Key Features
+---
+## 🚀 Key Features
 
-* **File Upload**: Supports TXT, PDF, and DOCX files.
-* **Custom Quiz Size**: Generate 10, 20, or 30 questions per session.
-* **Multiple-choice Format**: Questions with 4 options (A, B, C, D) and correct answers.
-* **Two Modes**: Smart Online (API) and Offline mode.
-* **Cross-platform Compatibility**: Works on VS Code, Jupyter Notebook, and Google Colab.
+| Feature | Description |
+|---------|-------------|
+| 📄 **File Upload** | Supports **TXT, PDF, and DOCX** files |
+| 🎯 **Custom Quiz Size** | Generate **10, 20, or 30 questions** per session |
+| 🧠 **Multiple-choice Format** | Questions with **4 options (A, B, C, D)** and correct answers |
+| 🌐 **Two Modes** | **Online (API)** for smart questions / **Offline** for simple questions |
+| 💻 **Cross-platform Compatibility** | Works on **VS Code**, **Jupyter Notebook**, and **Google Colab** |
+
+---
+## 🖥️ Flowchart (Mindmap)
+
+```mermaid
+graph TD
+    A[Upload File] --> B{Choose Mode}
+    B --> C[Online (API)]
+    B --> D[Offline]
+    C --> E[Generate Questions]
+    D --> E
+    E --> F[Display Quiz Output]
+    F --> G[Save / Copy / Practice]
 
 ---
 ## 🗂️ Project Structure
