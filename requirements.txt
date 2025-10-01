@@ -1,0 +1,12 @@
+requirements :
+
+# Core dependencies
+
+openai>=0.28  # OpenAI API client for question generation (if using API version)
+PyPDF2>=3.0.0  # To read PDF files
+python-docx>=1.0.0  # To read DOCX files
+
+# Optional (if working in Google Colab)
+
+google-colab>=1.0.0
+
