@@ -38,19 +38,6 @@ This project is designed for learning, revision, and self-assessment.
 | 💻 **Cross-platform Compatibility** | Works on **VS Code**, **Jupyter Notebook**, and **Google Colab** |
 
 ---
-## 🖥️ Flowchart (Mindmap)
-
-```mermaid
-graph TD
-    A[Upload File] --> B{Choose Mode}
-    B --> C[Online (API)]
-    B --> D[Offline]
-    C --> E[Generate Questions]
-    D --> E
-    E --> F[Display Quiz Output]
-    F --> G[Save / Copy / Practice]
-
----
 ## 🗂️ Project Structure
 
 ```
